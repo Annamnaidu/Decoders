@@ -35,8 +35,8 @@
 }
 .full-width-image {
   width: 100%;         /* Take full width of the screen */
-  height: 100%;        /* Maintain aspect ratio */
-  display: block;      /* Removes small gaps under the image */
+  height: 20%;        /* Maintain aspect ratio */
+  display: flex;      /* Removes small gaps under the image */
   object-fit: cover;   /* Optional: cover the space neatly */
 }
 .Course{
@@ -51,4 +51,11 @@
     height: 100vh;
     width: 100vw;
 
+}
+.content{
+    display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  height: 100vh;            /* full viewport height */
+  font-size: 2rem; 
 }
