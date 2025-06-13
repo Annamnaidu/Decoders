@@ -27,17 +27,10 @@
     text-decoration: none;
     padding: 10px 15px; 
     display: block;
-}
-.MainNavBar{
+}.MainNavBar{
     list-style-type: none;
-    display: flex;
+    display:flex;
     gap: 25px;
-}
-.full-width-image {
-  width: 100%;         /* Take full width of the screen */
-  height: 20%;        /* Maintain aspect ratio */
-  display: flex;      /* Removes small gaps under the image */
-  object-fit: cover;   /* Optional: cover the space neatly */
 }
 .Course{
     color: blue;
@@ -54,8 +47,56 @@
 }
 .content{
     display: flex;
-  justify-content: center;  /* horizontal center */
-  align-items: center;      /* vertical center */
-  height: 100vh;            /* full viewport height */
+  justify-content: center;  
+  align-items: center;     
+  height: 100vh;           
   font-size: 2rem; 
 }
+.colouser1 {
+  background-color: #0910cd; 
+  color: white; 
+  padding: 100px;
+  text-align: center;
+ 
+}
+.colouser1 h2{
+    background-color: rgb(238, 18, 18);
+    text-decoration: none;
+    color:white;
+  text-align: center;  
+  display: inline-block; 
+  padding: 8px 20px;
+}
+  .ul {
+    display: flex;
+    justify-content: space-between; /* Places items left, center, right */
+    padding: 20px;
+  }
+.ul .list h3{
+
+  background-color: rgb(173, 72, 158);
+  text-decoration: none;
+  color:#0910cd;
+  text-align: center;  
+  display: inline-block; 
+  padding: 30px 20px;
+}
+.ul .angular h3{
+
+  background-color: rgb(173, 72, 158);
+  text-decoration: none;
+  color:#0910cd;
+  text-align: center;  
+  display: inline-block; 
+  padding: 30px 20px;
+}
+.ul .reactJs h3{
+
+  background-color: rgb(173, 72, 158);
+  text-decoration: none;
+  color:#0910cd;
+  text-align: ;  
+  display: inline-block; 
+  padding: 30px 20px;
+}
+
