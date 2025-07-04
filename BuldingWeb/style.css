@@ -74,29 +74,40 @@
   }
 .ul .list h3{
 
-  background-color: rgb(173, 72, 158);
+  background-color: white;
   text-decoration: none;
   color:#0910cd;
   text-align: center;  
   display: inline-block; 
   padding: 30px 20px;
+   position: relative;
+  top: -70px;
+  left: 30px;
+  border: 5px solid black;
 }
 .ul .angular h3{
 
-  background-color: rgb(173, 72, 158);
+  background-color: white;
   text-decoration: none;
   color:#0910cd;
   text-align: center;  
-  display: inline-block; 
+  display: inline-block;
+  position: relative;
+  top: -70px;
   padding: 30px 20px;
+  border: 5px solid black;
 }
 .ul .reactJs h3{
 
-  background-color: rgb(173, 72, 158);
+  background-color: white;
   text-decoration: none;
   color:#0910cd;
   text-align: ;  
   display: inline-block; 
   padding: 30px 20px;
+   position: relative;
+  top: -70px;
+  right: 30px;
+  border: 5px solid black;
 }
 
